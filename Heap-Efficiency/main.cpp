@@ -31,6 +31,7 @@ int main() {
     listTotal = 0,
     queueTotal = 0;
     
+    //bind rand to current time so that numbers are random every run
     std::srand(std::time(NULL));
     
     
