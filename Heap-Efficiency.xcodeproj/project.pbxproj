@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B63426331CE2C54800BA8ED9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B63426321CE2C54800BA8ED9 /* main.cpp */; };
+		B634263E1CE2C57500BA8ED9 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B634263A1CE2C57500BA8ED9 /* List.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,11 @@
 /* Begin PBXFileReference section */
 		B634262F1CE2C54800BA8ED9 /* Heap-Efficiency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Heap-Efficiency"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63426321CE2C54800BA8ED9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B63426391CE2C57500BA8ED9 /* Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		B634263A1CE2C57500BA8ED9 /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		B634263B1CE2C57500BA8ED9 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		B634263C1CE2C57500BA8ED9 /* MinimumQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumQueue.h; sourceTree = "<group>"; };
+		B634263D1CE2C57500BA8ED9 /* output.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				B63426321CE2C54800BA8ED9 /* main.cpp */,
+				B63426391CE2C57500BA8ED9 /* Heap.h */,
+				B634263A1CE2C57500BA8ED9 /* List.cpp */,
+				B634263B1CE2C57500BA8ED9 /* List.h */,
+				B634263C1CE2C57500BA8ED9 /* MinimumQueue.h */,
+				B634263D1CE2C57500BA8ED9 /* output.out */,
 			);
 			path = "Heap-Efficiency";
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63426331CE2C54800BA8ED9 /* main.cpp in Sources */,
+				B634263E1CE2C57500BA8ED9 /* List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
